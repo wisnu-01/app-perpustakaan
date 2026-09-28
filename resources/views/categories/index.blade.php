@@ -27,5 +27,5 @@
             @endforelse
         </tbody>
     </table>
-    <p><em>Catatan: data di atas masih data dummy, belum dari database.</em></p>
+    {{ $categories->links() }}
 @endsection
